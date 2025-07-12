@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Location",
-      value: "KH413, Infront Of RadhaKirshna Temple, Manoharpura, Jagatpura",
+      value: "Jaipur, Rajasthan, India",
       link: null
     }
   ];
@@ -56,7 +56,7 @@ const Contact: React.FC = () => {
     {
       icon: <Github className="w-6 h-6" />,
       name: "GitHub",
-      link: "https://github.com/abhishekpareek"
+      link: "https://github.com/INFINITQ"
     },
     {
       icon: <Linkedin className="w-6 h-6" />,

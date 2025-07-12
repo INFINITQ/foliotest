@@ -63,6 +63,12 @@ const Hero: React.FC = () => {
             </motion.button>
             
             <motion.button
+              onClick={() => {
+                const link = document.createElement('a');
+                link.href = '/resume.pdf';
+                link.download = 'Abhishek_Pareek_Resume.pdf';
+                link.click();
+              }}
               className="border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white px-8 py-3 rounded-full transition-all duration-200 flex items-center gap-2 justify-center interactive"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

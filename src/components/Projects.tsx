@@ -151,25 +151,6 @@ const Projects: React.FC = () => {
                       </span>
                     ))}
                   </div>
-                  
-                  <div className="flex space-x-4">
-                    <motion.button
-                      className="flex items-center space-x-2 text-orange-500 hover:text-orange-600 transition-colors duration-200 interactive"
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
-                    >
-                      <Github className="w-5 h-5" />
-                      <span>Code</span>
-                    </motion.button>
-                    <motion.button
-                      className="flex items-center space-x-2 text-orange-500 hover:text-orange-600 transition-colors duration-200 interactive"
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
-                    >
-                      <ExternalLink className="w-5 h-5" />
-                      <span>Demo</span>
-                    </motion.button>
-                  </div>
                 </motion.div>
               ))}
             </div>
