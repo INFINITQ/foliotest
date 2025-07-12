@@ -65,7 +65,7 @@ const Hero: React.FC = () => {
             <motion.button
               onClick={() => {
                 const link = document.createElement('a');
-                link.href = '/resume.pdf';
+                link.href = '/Resume.pdf';
                 link.download = 'Abhishek_Pareek_Resume.pdf';
                 link.click();
               }}
